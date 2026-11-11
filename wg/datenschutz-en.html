@@ -35,7 +35,7 @@
 <p>Reminders and the widget run locally on your device and send nothing to us. When you import a calendar by link, your iPhone contacts the address you entered yourself. No data about you is sent along.</p>
 
 <h2>3. Sharing online and sign-in</h2>
-<p><strong>Sign in with Apple (optional).</strong> When sharing online you can sign in with Apple so you can restore your flat on a new phone. Apple does not pass us a name or email address; we only receive an app-specific identifier. We store it to assign your account to the flat. You can end the sign-in at any time in iOS Settings (Apple Account, Sign in with Apple); you delete your online account in the app.</p>
+<p><strong>Sign in with Apple (optional).</strong> When sharing online you can sign in with Apple so you can restore your flat on a new phone. Apple does not pass us a name or email address; we only receive an app-specific identifier. We store it to assign your account to the flat. You can end the sign-in at any time in iOS Settings (Apple Account, Sign in with Apple); you delete your online account in the app. Deleting it also revokes the link at Apple. For this we store a token issued by Apple until deletion, which is then deleted as well.</p>
 <p><strong>Without signing in.</strong> Otherwise the app creates an anonymous account in the background.</p>
 <p>If you create or join a flat online, the app creates an anonymous account in the background. Our server assigns a random user ID; there is no name, email address or password. The app keeps the sign-in key in your iPhone’s keychain. We then store on our server (Supabase, Frankfurt):</p>
 <ul>
